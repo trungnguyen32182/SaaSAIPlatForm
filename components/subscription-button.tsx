@@ -1,5 +1,4 @@
 "use client";
-
 import axios from "axios";
 import { Zap } from "lucide-react";
 import { FC, useState } from "react";
