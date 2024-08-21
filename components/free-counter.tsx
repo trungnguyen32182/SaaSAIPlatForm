@@ -9,7 +9,6 @@ import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Progress } from "./ui/progress";
 import { useUser } from "@clerk/nextjs";
-import useApiLimitCount from "@/hooks/api-limit-count";
 
 interface FreeCounterProps {
   apiLimitCount: number;
